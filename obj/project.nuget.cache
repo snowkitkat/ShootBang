@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "B+vwCMeTLzEk4+1bGEovkn3NdN8EXrzd1pWFH+44hXZcCc4julGZnacUxMvvHU3DgFzq7uVkAaF6lmlPnX0V9w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\snow\\Desktop\\Plugins\\ShootBang-main\\ShootBang\\ShootBang.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\snow\\.nuget\\packages\\exiled\\6.0.0-beta.26\\exiled.6.0.0-beta.26.nupkg.sha512",
+    "C:\\Users\\snow\\.nuget\\packages\\lib.harmony\\2.0.4\\lib.harmony.2.0.4.nupkg.sha512",
+    "C:\\Users\\snow\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShootBang</name>
+    </assembly>
+    <members>
+        <member name="T:ShootBang.Config">
+            <inheritdoc />
+        </member>
+        <member name="P:ShootBang.Config.IsEnabled">
+            <inheritdoc />
+        </member>
+        <member name="P:ShootBang.Config.FuseDuration">
+            <summary>
+            Gets or sets the fuse duration for shot grenades.
+            </summary>
+        </member>
+        <member name="T:ShootBang.EventHandlers">
+            <summary>
+            Handles events derived from <see cref="N:Exiled.Events.Handlers"/>.
+            </summary>
+        </member>
+        <member name="M:ShootBang.EventHandlers.#ctor(ShootBang.Plugin)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ShootBang.EventHandlers"/> class.
+            </summary>
+            <param name="plugin">An instance of the <see cref="T:ShootBang.Plugin"/> class.</param>
+        </member>
+        <member name="M:ShootBang.EventHandlers.OnShooting(Exiled.Events.EventArgs.Player.ShootingEventArgs)">
+            <inheritdoc cref="M:Exiled.Events.Handlers.Player.OnShooting(Exiled.Events.EventArgs.Player.ShootingEventArgs)"/>
+        </member>
+        <member name="T:ShootBang.Methods">
+            <summary>
+            Handles miscellaneous methods and tracking required by the <see cref="T:ShootBang.EventHandlers"/>.
+            </summary>
+        </member>
+        <member name="M:ShootBang.Methods.#ctor(ShootBang.Plugin)">
+            <summary>
+            Initializes a new instance of the <see cref="T:ShootBang.Methods"/> class.
+            </summary>
+            <param name="plugin">An instance of the <see cref="T:ShootBang.Plugin"/> class.</param>
+        </member>
+        <member name="M:ShootBang.Methods.CheckPickup(Exiled.Events.EventArgs.Player.ShootingEventArgs)">
+            <summary>
+            Checks a players shot to see if a grenade item was hit.
+            </summary>
+            <param name="ev">The produced <see cref="T:Exiled.Events.EventArgs.Player.ShootingEventArgs"/>.</param>
+            <returns>A value indicating whether a pickup was detected with a linecast.</returns>
+        </member>
+        <member name="M:ShootBang.Methods.CheckAir(Exiled.Events.EventArgs.Player.ShootingEventArgs)">
+            <summary>
+            Checks a players shot to see if a thrown grenade was hit.
+            </summary>
+            <param name="ev">The produced <see cref="T:Exiled.Events.EventArgs.Player.ShootingEventArgs"/>.</param>
+        </member>
+        <member name="T:ShootBang.Plugin">
+            <summary>
+            The main plugin class.
+            </summary>
+        </member>
+        <member name="P:ShootBang.Plugin.Author">
+            <inheritdoc />
+        </member>
+        <member name="P:ShootBang.Plugin.RequiredExiledVersion">
+            <inheritdoc />
+        </member>
+        <member name="P:ShootBang.Plugin.Methods">
+            <summary>
+            Gets an instance of the <see cref="T:ShootBang.Methods"/> class.
+            </summary>
+        </member>
+        <member name="M:ShootBang.Plugin.OnEnabled">
+            <inheritdoc />
+        </member>
+        <member name="M:ShootBang.Plugin.OnDisabled">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

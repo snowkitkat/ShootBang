@@ -1,0 +1,11 @@
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\bin\Debug\ShootBang.dll
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\bin\Debug\ShootBang.pdb
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\bin\Debug\ShootBang.xml
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.csproj.AssemblyReference.cache
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.AssemblyInfoInputs.cache
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.AssemblyInfo.cs
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.csproj.CoreCompileInputs.cache
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.dll
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.xml
+C:\Users\snow\Desktop\Plugins\ShootBang-main\ShootBang\obj\Debug\ShootBang.pdb
