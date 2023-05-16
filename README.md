@@ -16,4 +16,4 @@ shoot_bang:
 
 **[EXILED](https://github.com/galaxy119/EXILED) must be installed for this to work.**
 
-Place the "RainbowTags.dll" file in your Plugins folder.
+Place the "ShootBang.dll" file in your Plugins folder.
